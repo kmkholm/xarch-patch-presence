@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+logs/
+runs/
+results/
+data/extracted/
+data/debian/
+data/openwrt/
+data/plocator/
+data/cisco/
+data/firmae/
+data/functions/debian_funcs.jsonl
+data/functions/pretrain_funcs.jsonl

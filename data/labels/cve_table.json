@@ -1,0 +1,8444 @@
+{
+ "CVE-2014-9658": {
+  "project": "freetype",
+  "functions": [
+   "tt_face_load_kern"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "2.5.3",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125"
+  ]
+ },
+ "CVE-2014-9663": {
+  "project": "freetype",
+  "functions": [
+   "tt_cmap4_validate"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "2.5.3",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-119"
+  ]
+ },
+ "CVE-2014-9669": {
+  "project": "freetype",
+  "functions": [
+   "tt_cmap12_validate",
+   "tt_cmap13_validate",
+   "tt_cmap14_validate"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "2.5.3",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125"
+  ]
+ },
+ "CVE-2016-10328": {
+  "project": "freetype",
+  "functions": [
+   "cff_parser_run"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "2.7",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-787"
+  ]
+ },
+ "CVE-2017-7857": {
+  "project": "freetype",
+  "functions": [
+   "sfnt_init_face"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "2.7",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "2.8",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-787"
+  ]
+ },
+ "CVE-2017-7858": {
+  "project": "freetype",
+  "functions": [
+   "sfnt_init_face"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "2.7.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-787"
+  ]
+ },
+ "CVE-2017-8287": {
+  "project": "freetype",
+  "functions": [
+   "t1_builder_close_contour"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "2.7.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-119"
+  ]
+ },
+ "CVE-2015-7499": {
+  "project": "libxml2",
+  "functions": [
+   "xmlStopParser__internal_alias"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "2.9.2",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-119"
+  ]
+ },
+ "CVE-2016-1833": {
+  "project": "libxml2",
+  "functions": [
+   "xmlNextChar__internal_alias"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "2.9.4",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125"
+  ]
+ },
+ "CVE-2016-1834": {
+  "project": "libxml2",
+  "functions": [
+   "xmlStrncatNew__internal_alias",
+   "xmlStrncat__internal_alias"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "2.9.4",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-119",
+   "CWE-122"
+  ]
+ },
+ "CVE-2016-1838": {
+  "project": "libxml2",
+  "functions": [
+   "xmlParseEndTag2"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "2.9.4",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125"
+  ]
+ },
+ "CVE-2016-4447": {
+  "project": "libxml2",
+  "functions": [
+   "xmlParseConditionalSections"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "2.9.3",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-119"
+  ]
+ },
+ "CVE-2016-4483": {
+  "project": "libxml2",
+  "functions": [
+   "xmlBufAttrSerializeTxtContent"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "2.9.4",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-502"
+  ]
+ },
+ "CVE-2016-4658": {
+  "project": "libxml2",
+  "functions": [
+   "xmlXPtrNewCollapsedRange__internal_alias",
+   "xmlXPtrNewRangeNodeObject__internal_alias",
+   "xmlXPtrNewRangeNodePoint__internal_alias",
+   "xmlXPtrNewRangeNodes__internal_alias",
+   "xmlXPtrNewRangePointNode__internal_alias",
+   "xmlXPtrNewRangePoints__internal_alias",
+   "xmlXPtrNewRange__internal_alias",
+   "xmlXPtrNewRange__internal_alias_0"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "2.9.5",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-119"
+  ]
+ },
+ "CVE-2022-40303": {
+  "project": "libxml2",
+  "functions": [
+   "xmlParseNameComplex"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "2.10.3",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-190",
+   "CWE-190"
+  ]
+ },
+ "CVE-2022-40304": {
+  "project": "libxml2",
+  "functions": [
+   "xmlFreeEntity"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "2.10.3",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-415",
+   "CWE-415"
+  ]
+ },
+ "CVE-2013-6449": {
+  "project": "openssl",
+  "functions": [
+   "ssl_get_algorithm2"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "1.0.1e",
+    "versionEndExcluding": null,
+    "exact": null
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta4"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta5"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   }
+  ],
+  "cwe": [
+   "CWE-310"
+  ]
+ },
+ "CVE-2013-6450": {
+  "project": "openssl",
+  "functions": [
+   "tls1_change_cipher_state"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta4"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta5"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1e"
+   }
+  ],
+  "cwe": [
+   "CWE-310"
+  ]
+ },
+ "CVE-2014-0160": {
+  "project": "openssl",
+  "functions": [
+   "dtls1_process_heartbeat",
+   "tls1_process_heartbeat"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "1.0.1",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "1.0.1g",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125",
+   "CWE-125"
+  ]
+ },
+ "CVE-2014-0195": {
+  "project": "openssl",
+  "functions": [
+   "dtls1_reassemble_fragment"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "0.9.8",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "0.9.8za",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "1.0.0",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "1.0.0m",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "1.0.1",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "1.0.1h",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-120"
+  ]
+ },
+ "CVE-2014-0224": {
+  "project": "openssl",
+  "functions": [
+   "ssl3_get_server_hello"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "0.9.8za",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "1.0.0",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "1.0.0m",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "1.0.1",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "1.0.1h",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-326"
+  ]
+ },
+ "CVE-2014-3470": {
+  "project": "openssl",
+  "functions": [
+   "ssl3_send_client_key_exchange"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "0.9.8za",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "1.0.0",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "1.0.0m",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "1.0.1",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "1.0.1h",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-476"
+  ]
+ },
+ "CVE-2014-3506": {
+  "project": "openssl",
+  "functions": [
+   "dtls1_reassemble_fragment"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8mbeta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8n"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8o"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8p"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8q"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8r"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8s"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8t"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8u"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8v"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8w"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8x"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8y"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8za"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta4"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta5"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1h"
+   }
+  ],
+  "cwe": [
+   "CWE-399"
+  ]
+ },
+ "CVE-2014-3507": {
+  "project": "openssl",
+  "functions": [
+   "dtls1_reassemble_fragment"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8mbeta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8n"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8o"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8p"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8q"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8r"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8s"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8t"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8u"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8v"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8w"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8x"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8y"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8za"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta4"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta5"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1h"
+   }
+  ],
+  "cwe": [
+   "CWE-399"
+  ]
+ },
+ "CVE-2014-3508": {
+  "project": "openssl",
+  "functions": [
+   "OBJ_obj2txt",
+   "c2i_ASN1_OBJECT"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8mbeta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8n"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8o"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8p"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8q"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8r"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8s"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8t"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8u"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8v"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8w"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8x"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8y"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8za"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta4"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta5"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1h"
+   }
+  ],
+  "cwe": [
+   "CWE-200"
+  ]
+ },
+ "CVE-2014-3510": {
+  "project": "openssl",
+  "functions": [
+   "ssl3_send_client_key_exchange"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8mbeta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8n"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8o"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8p"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8q"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8r"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8s"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8t"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8u"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8v"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8w"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8x"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8y"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "0.9.8za"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta4"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta5"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1h"
+   }
+  ],
+  "cwe": [
+   "NVD-CWE-Other"
+  ]
+ },
+ "CVE-2014-3511": {
+  "project": "openssl",
+  "functions": [
+   "ssl23_get_client_hello"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta4"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta5"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1h"
+   }
+  ],
+  "cwe": [
+   "NVD-CWE-noinfo"
+  ]
+ },
+ "CVE-2014-3512": {
+  "project": "openssl",
+  "functions": [
+   "SRP_Calc_u",
+   "srp_Calc_k"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta4"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta5"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1h"
+   }
+  ],
+  "cwe": [
+   "CWE-119"
+  ]
+ },
+ "CVE-2014-3513": {
+  "project": "openssl",
+  "functions": [
+   "ssl_add_clienthello_tlsext",
+   "ssl_add_serverhello_tlsext",
+   "ssl_parse_clienthello_tlsext",
+   "ssl_parse_serverhello_tlsext"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1i"
+   }
+  ],
+  "cwe": [
+   "CWE-20"
+  ]
+ },
+ "CVE-2014-3567": {
+  "project": "openssl",
+  "functions": [
+   "tls_decrypt_ticket"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "0.9.8zb",
+    "versionEndExcluding": null,
+    "exact": null
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta4"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta5"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0n"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1i"
+   }
+  ],
+  "cwe": [
+   "CWE-20"
+  ]
+ },
+ "CVE-2014-5139": {
+  "project": "openssl",
+  "functions": [
+   "ssl3_get_server_hello",
+   "ssl_cipher_list_to_bytes"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1h"
+   }
+  ],
+  "cwe": [
+   "NVD-CWE-Other"
+  ]
+ },
+ "CVE-2014-8275": {
+  "project": "openssl",
+  "functions": [
+   "DSA_verify",
+   "ECDSA_verify"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "0.9.8zc",
+    "versionEndExcluding": null,
+    "exact": null
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0n"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0o"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1j"
+   }
+  ],
+  "cwe": [
+   "CWE-310"
+  ]
+ },
+ "CVE-2015-0206": {
+  "project": "openssl",
+  "functions": [
+   "dtls1_get_record",
+   "dtls1_read_bytes"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0n"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0o"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1j"
+   }
+  ],
+  "cwe": [
+   "CWE-119"
+  ]
+ },
+ "CVE-2015-0292": {
+  "project": "openssl",
+  "functions": [
+   "EVP_DecodeUpdate"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "0.9.8z",
+    "versionEndExcluding": null,
+    "exact": null
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1g"
+   }
+  ],
+  "cwe": [
+   "CWE-119"
+  ]
+ },
+ "CVE-2015-1791": {
+  "project": "openssl",
+  "functions": [
+   "ssl3_get_new_session_ticket"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "0.9.8zf",
+    "versionEndExcluding": null,
+    "exact": null
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta4"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0beta5"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0n"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0o"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0p"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0q"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0r"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2a"
+   }
+  ],
+  "cwe": [
+   "CWE-362"
+  ]
+ },
+ "CVE-2015-3195": {
+  "project": "openssl",
+  "functions": [
+   "ASN1_item_ex_d2i"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "0.9.8zh",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "1.0.0",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "1.0.0t",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "1.0.1",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "1.0.1q",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "1.0.2",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "1.0.2e",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-200"
+  ]
+ },
+ "CVE-2015-3196": {
+  "project": "openssl",
+  "functions": [
+   "ssl3_get_client_key_exchange",
+   "ssl3_get_key_exchange"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0n"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0o"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0p"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0q"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0r"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.0s"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1n"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1o"
+   }
+  ],
+  "cwe": [
+   "CWE-362"
+  ]
+ },
+ "CVE-2016-0705": {
+  "project": "openssl",
+  "functions": [
+   "dsa_priv_decode"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1n"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1o"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1p"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1q"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1r"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2f"
+   }
+  ],
+  "cwe": [
+   "NVD-CWE-Other"
+  ]
+ },
+ "CVE-2016-0797": {
+  "project": "openssl",
+  "functions": [
+   "BN_dec2bn"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1n"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1o"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1p"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1q"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1r"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2f"
+   }
+  ],
+  "cwe": [
+   "NVD-CWE-Other"
+  ]
+ },
+ "CVE-2016-0798": {
+  "project": "openssl",
+  "functions": [
+   "init_ssl_connection",
+   "ssl_srp_server_param_cb",
+   "sv_body",
+   "www_body"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1n"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1o"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1p"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1q"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1r"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2f"
+   }
+  ],
+  "cwe": [
+   "CWE-399"
+  ]
+ },
+ "CVE-2016-2177": {
+  "project": "openssl",
+  "functions": [
+   "ssl3_get_client_hello",
+   "tls1_process_ticket"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1n"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1o"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1p"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1q"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1r"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1s"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1t"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2h"
+   }
+  ],
+  "cwe": [
+   "CWE-190"
+  ]
+ },
+ "CVE-2016-2179": {
+  "project": "openssl",
+  "functions": [
+   "dtls1_stop_timer"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1n"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1o"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1p"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1q"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1r"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1s"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1t"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2h"
+   }
+  ],
+  "cwe": [
+   "CWE-399"
+  ]
+ },
+ "CVE-2016-2180": {
+  "project": "openssl",
+  "functions": [
+   "TS_OBJ_print_bio"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1n"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1o"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1p"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1q"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1r"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1s"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1t"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2h"
+   }
+  ],
+  "cwe": [
+   "CWE-125"
+  ]
+ },
+ "CVE-2016-2182": {
+  "project": "openssl",
+  "functions": [
+   "BN_bn2dec"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1n"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1o"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1p"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1q"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1r"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1s"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1t"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2h"
+   }
+  ],
+  "cwe": [
+   "CWE-787"
+  ]
+ },
+ "CVE-2016-6302": {
+  "project": "openssl",
+  "functions": [
+   "tls_decrypt_ticket"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1n"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1o"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1p"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1q"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1r"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1s"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1t"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2h"
+   }
+  ],
+  "cwe": [
+   "CWE-20"
+  ]
+ },
+ "CVE-2016-6303": {
+  "project": "openssl",
+  "functions": [
+   "MDC2_Update"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1n"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1o"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1p"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1q"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1r"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1s"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1t"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2h"
+   }
+  ],
+  "cwe": [
+   "CWE-787"
+  ]
+ },
+ "CVE-2016-6304": {
+  "project": "openssl",
+  "functions": [
+   "ssl_parse_clienthello_tlsext"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.1.0"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1n"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1o"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1p"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1q"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1r"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1s"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1t"
+   }
+  ],
+  "cwe": [
+   "CWE-401"
+  ]
+ },
+ "CVE-2016-6306": {
+  "project": "openssl",
+  "functions": [
+   "ssl3_get_certificate_request",
+   "ssl3_get_server_certificate"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1g"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1h"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1i"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1j"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1k"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1l"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1m"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1n"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1o"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1p"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1q"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1r"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1s"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.1t"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2beta1"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2beta2"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2beta3"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2a"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2b"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2c"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2d"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2e"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2f"
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.0.2h"
+   }
+  ],
+  "cwe": [
+   "CWE-125"
+  ]
+ },
+ "CVE-2018-0732": {
+  "project": "openssl",
+  "functions": [
+   "generate_key"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "1.0.2",
+    "versionStartExcluding": null,
+    "versionEndIncluding": "1.0.2o",
+    "versionEndExcluding": null,
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "1.1.0",
+    "versionStartExcluding": null,
+    "versionEndIncluding": "1.1.0h",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-320"
+  ]
+ },
+ "CVE-2018-0734": {
+  "project": "openssl",
+  "functions": [
+   "dsa_sign_setup"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "1.0.2",
+    "versionStartExcluding": null,
+    "versionEndIncluding": "1.0.2p",
+    "versionEndExcluding": null,
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "1.1.0",
+    "versionStartExcluding": null,
+    "versionEndIncluding": "1.1.0i",
+    "versionEndExcluding": null,
+    "exact": null
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.1.1"
+   }
+  ],
+  "cwe": [
+   "CWE-327"
+  ]
+ },
+ "CVE-2018-0735": {
+  "project": "openssl",
+  "functions": [
+   "ec_scalar_mul_ladder"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "1.1.0",
+    "versionStartExcluding": null,
+    "versionEndIncluding": "1.1.0i",
+    "versionEndExcluding": null,
+    "exact": null
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "1.1.1"
+   }
+  ],
+  "cwe": [
+   "CWE-327"
+  ]
+ },
+ "CVE-2019-1547": {
+  "project": "openssl",
+  "functions": [
+   "EC_METHOD_get_field_type"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "1.0.2",
+    "versionStartExcluding": null,
+    "versionEndIncluding": "1.0.2s",
+    "versionEndExcluding": null,
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "1.1.0",
+    "versionStartExcluding": null,
+    "versionEndIncluding": "1.1.0k",
+    "versionEndExcluding": null,
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "1.1.1",
+    "versionStartExcluding": null,
+    "versionEndIncluding": "1.1.1c",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "NVD-CWE-noinfo"
+  ]
+ },
+ "CVE-2019-1563": {
+  "project": "openssl",
+  "functions": [
+   "PKCS7_dataDecode",
+   "pkcs7_decrypt_rinfo"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "1.0.2",
+    "versionStartExcluding": null,
+    "versionEndIncluding": "1.0.2s",
+    "versionEndExcluding": null,
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "1.1.0",
+    "versionStartExcluding": null,
+    "versionEndIncluding": "1.1.0k",
+    "versionEndExcluding": null,
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "1.1.1",
+    "versionStartExcluding": null,
+    "versionEndIncluding": "1.1.1c",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-203"
+  ]
+ },
+ "CVE-2020-1967": {
+  "project": "openssl",
+  "functions": [
+   "tls1_check_sig_alg"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "1.1.1d",
+    "versionStartExcluding": null,
+    "versionEndIncluding": "1.1.1f",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-476"
+  ]
+ },
+ "CVE-2021-23841": {
+  "project": "openssl",
+  "functions": [
+   "X509_issuer_and_serial_hash"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "1.0.2",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "1.0.2y",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "1.1.1",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "1.1.1j",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-476"
+  ]
+ },
+ "CVE-2021-3449": {
+  "project": "openssl",
+  "functions": [
+   "init_sig_algs"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "1.1.1",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "1.1.1k",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-476"
+  ]
+ },
+ "CVE-2021-3450": {
+  "project": "openssl",
+  "functions": [
+   "check_chain_extensions"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "1.1.1h",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "1.1.1k",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-295"
+  ]
+ },
+ "CVE-2021-3712": {
+  "project": "openssl",
+  "functions": [
+   "EC_GROUP_new_from_ecparameters"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "1.0.2",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "1.0.2za",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "1.1.1",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "1.1.1l",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125",
+   "CWE-125"
+  ]
+ },
+ "CVE-2022-1343": {
+  "project": "openssl",
+  "functions": [
+   "ocsp_verify_signer"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "3.0.0",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "3.0.3",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-295",
+   "CWE-295"
+  ]
+ },
+ "CVE-2022-1473": {
+  "project": "openssl",
+  "functions": [
+   "OPENSSL_LH_flush"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "3.0.0",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "3.0.3",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-459",
+   "CWE-459"
+  ]
+ },
+ "CVE-2022-2274": {
+  "project": "openssl",
+  "functions": [
+   "ossl_rsaz_mod_exp_avx512_x2"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": null,
+    "exact": "3.0.4"
+   }
+  ],
+  "cwe": [
+   "CWE-787"
+  ]
+ },
+ "CVE-2022-3358": {
+  "project": "openssl",
+  "functions": [
+   "evp_md_init_internal"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "3.0.0",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "3.0.6",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-476"
+  ]
+ },
+ "CVE-2022-3602": {
+  "project": "openssl",
+  "functions": [
+   "ossl_punycode_decode"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "3.0.0",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "3.0.7",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-787",
+   "CWE-787"
+  ]
+ },
+ "CVE-2022-3786": {
+  "project": "openssl",
+  "functions": [
+   "ossl_a2ulabel"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "3.0.0",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "3.0.7",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-120",
+   "CWE-120"
+  ]
+ },
+ "CVE-2022-3996": {
+  "project": "openssl",
+  "functions": [
+   "ossl_policy_cache_set_mapping"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "3.0.0",
+    "versionStartExcluding": null,
+    "versionEndIncluding": "3.0.7",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-667",
+   "CWE-667"
+  ]
+ },
+ "CVE-2023-0215": {
+  "project": "openssl",
+  "functions": [
+   "BIO_new_NDEF"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "1.0.2",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "1.0.2zg",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "1.1.1",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "1.1.1t",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "3.0.0",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "3.0.8",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-416",
+   "CWE-416"
+  ]
+ },
+ "CVE-2023-0216": {
+  "project": "openssl",
+  "functions": [
+   "PKCS7_add_signature"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "3.0.0",
+    "versionStartExcluding": null,
+    "versionEndIncluding": "3.0.7",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-476",
+   "CWE-476"
+  ]
+ },
+ "CVE-2023-0217": {
+  "project": "openssl",
+  "functions": [
+   "ossl_ffc_validate_public_key_partial"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "3.0.0",
+    "versionStartExcluding": null,
+    "versionEndIncluding": "3.0.7",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-476",
+   "CWE-476"
+  ]
+ },
+ "CVE-2023-0286": {
+  "project": "openssl",
+  "functions": [
+   "GENERAL_NAME_cmp"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "1.0.2",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "1.0.2zg",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "1.1.1",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "1.1.1t",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "3.0.0",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "3.0.8",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-843",
+   "CWE-843"
+  ]
+ },
+ "CVE-2023-0401": {
+  "project": "openssl",
+  "functions": [
+   "pkcs7_bio_add_digest"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "3.0.0",
+    "versionStartExcluding": null,
+    "versionEndIncluding": "3.0.7",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-476",
+   "CWE-476"
+  ]
+ },
+ "CVE-2023-0464": {
+  "project": "openssl",
+  "functions": [
+   "ossl_policy_level_add_node"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "1.0.2",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "1.0.2zh",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "1.1.1",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "1.1.1u",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "3.0.0",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "3.0.9",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "3.1.0",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "3.1.1",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-295",
+   "CWE-295"
+  ]
+ },
+ "CVE-2023-0465": {
+  "project": "openssl",
+  "functions": [
+   "check_policy"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "1.0.2",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "1.0.2zh",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "1.1.1",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "1.1.1u",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "3.0.0",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "3.0.9",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "3.1.0",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "3.1.1",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-295",
+   "CWE-295"
+  ]
+ },
+ "CVE-2023-2650": {
+  "project": "openssl",
+  "functions": [
+   "OBJ_obj2txt"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": "1.0.2",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "1.0.2zh",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "1.1.1",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "1.1.1u",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "3.0.0",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "3.0.9",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": "3.1.0",
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "3.1.1",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-770",
+   "CWE-770"
+  ]
+ },
+ "CVE-2017-12895": {
+  "project": "tcpdump",
+  "functions": [
+   "icmp_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "4.9.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125",
+   "CWE-125"
+  ]
+ },
+ "CVE-2017-12896": {
+  "project": "tcpdump",
+  "functions": [
+   "isakmp_rfc3948_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "4.9.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125",
+   "CWE-125"
+  ]
+ },
+ "CVE-2017-12990": {
+  "project": "tcpdump",
+  "functions": [
+   "ikev1_n_print",
+   "ikev1_nonce_print",
+   "ikev2_n_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "4.9.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-835",
+   "CWE-125"
+  ]
+ },
+ "CVE-2017-12991": {
+  "project": "tcpdump",
+  "functions": [
+   "bgp_attr_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "4.9.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125"
+  ]
+ },
+ "CVE-2017-12992": {
+  "project": "tcpdump",
+  "functions": [
+   "ripng_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "4.9.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125",
+   "CWE-125"
+  ]
+ },
+ "CVE-2017-12993": {
+  "project": "tcpdump",
+  "functions": [
+   "juniper_atm1_print",
+   "juniper_atm2_print",
+   "juniper_es_print",
+   "juniper_ggsn_print",
+   "juniper_monitor_print",
+   "juniper_pppoe_atm_print",
+   "juniper_services_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "4.9.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125",
+   "CWE-125"
+  ]
+ },
+ "CVE-2017-13000": {
+  "project": "tcpdump",
+  "functions": [
+   "ieee802_15_4_if_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "4.9.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125",
+   "CWE-125"
+  ]
+ },
+ "CVE-2017-13002": {
+  "project": "tcpdump",
+  "functions": [
+   "aodv_extension"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "4.9.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125",
+   "CWE-125"
+  ]
+ },
+ "CVE-2017-13007": {
+  "project": "tcpdump",
+  "functions": [
+   "pktap_if_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "4.9.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125"
+  ]
+ },
+ "CVE-2017-13012": {
+  "project": "tcpdump",
+  "functions": [
+   "icmp_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "4.9.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125"
+  ]
+ },
+ "CVE-2017-13013": {
+  "project": "tcpdump",
+  "functions": [
+   "arp_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "4.9.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125",
+   "CWE-125"
+  ]
+ },
+ "CVE-2017-13019": {
+  "project": "tcpdump",
+  "functions": [
+   "pgm_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "4.9.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125",
+   "CWE-125"
+  ]
+ },
+ "CVE-2017-13028": {
+  "project": "tcpdump",
+  "functions": [
+   "bootp_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "4.9.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125",
+   "CWE-125"
+  ]
+ },
+ "CVE-2017-13029": {
+  "project": "tcpdump",
+  "functions": [
+   "print_bacp_config_options",
+   "print_ccp_config_options",
+   "print_ipcp_config_options",
+   "print_lcp_config_options"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "4.9.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125"
+  ]
+ },
+ "CVE-2017-13030": {
+  "project": "tcpdump",
+  "functions": [
+   "pim_print",
+   "pimv1_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "4.9.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125"
+  ]
+ },
+ "CVE-2017-13031": {
+  "project": "tcpdump",
+  "functions": [
+   "frag6_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "4.9.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125",
+   "CWE-125"
+  ]
+ },
+ "CVE-2017-13039": {
+  "project": "tcpdump",
+  "functions": [
+   "ikev1_n_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "4.9.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125"
+  ]
+ },
+ "CVE-2017-13040": {
+  "project": "tcpdump",
+  "functions": [
+   "mp_dss_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "4.9.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125",
+   "CWE-125"
+  ]
+ },
+ "CVE-2017-13049": {
+  "project": "tcpdump",
+  "functions": [
+   "ubik_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "4.9.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125"
+  ]
+ },
+ "CVE-2017-13050": {
+  "project": "tcpdump",
+  "functions": [
+   "rpki_rtr_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "4.9.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125",
+   "CWE-125"
+  ]
+ },
+ "CVE-2017-13051": {
+  "project": "tcpdump",
+  "functions": [
+   "rsvp_obj_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "4.9.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125"
+  ]
+ },
+ "CVE-2017-13052": {
+  "project": "tcpdump",
+  "functions": [
+   "cfm_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "4.9.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125"
+  ]
+ },
+ "CVE-2017-13687": {
+  "project": "tcpdump",
+  "functions": [
+   "chdlc_if_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "4.9.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125",
+   "CWE-125"
+  ]
+ },
+ "CVE-2017-13689": {
+  "project": "tcpdump",
+  "functions": [
+   "ikev1_id_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "4.9.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125",
+   "CWE-125"
+  ]
+ },
+ "CVE-2017-13690": {
+  "project": "tcpdump",
+  "functions": [
+   "ikev2_ID_print",
+   "ikev2_auth_print",
+   "ikev2_ke_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": "4.9.1",
+    "versionEndExcluding": null,
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125"
+  ]
+ },
+ "CVE-2018-14461": {
+  "project": "tcpdump",
+  "functions": [
+   "ldp_tlv_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "4.9.3",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125",
+   "CWE-125"
+  ]
+ },
+ "CVE-2018-14462": {
+  "project": "tcpdump",
+  "functions": [
+   "icmp_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "4.9.3",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "4.9.3",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125",
+   "CWE-125"
+  ]
+ },
+ "CVE-2018-14463": {
+  "project": "tcpdump",
+  "functions": [
+   "vrrp_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "4.9.3",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "4.9.3",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125"
+  ]
+ },
+ "CVE-2018-14466": {
+  "project": "tcpdump",
+  "functions": [
+   "rx_cache_insert"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "4.9.3",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125"
+  ]
+ },
+ "CVE-2018-14468": {
+  "project": "tcpdump",
+  "functions": [
+   "mfr_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "4.9.3",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125",
+   "CWE-125"
+  ]
+ },
+ "CVE-2018-14469": {
+  "project": "tcpdump",
+  "functions": [
+   "ikev1_n_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "4.9.3",
+    "exact": null
+   },
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "4.9.3",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125"
+  ]
+ },
+ "CVE-2018-14470": {
+  "project": "tcpdump",
+  "functions": [
+   "babel_print_v2"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "4.9.3",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125",
+   "CWE-125"
+  ]
+ },
+ "CVE-2018-14880": {
+  "project": "tcpdump",
+  "functions": [
+   "ospf6_print_lshdr"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "4.9.3",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125"
+  ]
+ },
+ "CVE-2018-15167": {
+  "project": "tcpdump",
+  "functions": [
+   "vrrp_print"
+  ],
+  "ranges": null,
+  "cwe": null
+ },
+ "CVE-2018-16227": {
+  "project": "tcpdump",
+  "functions": [
+   "ieee802_11_print"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "4.9.3",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125"
+  ]
+ },
+ "CVE-2018-16228": {
+  "project": "tcpdump",
+  "functions": [
+   "print_prefix"
+  ],
+  "ranges": [
+   {
+    "versionStartIncluding": null,
+    "versionStartExcluding": null,
+    "versionEndIncluding": null,
+    "versionEndExcluding": "4.9.3",
+    "exact": null
+   }
+  ],
+  "cwe": [
+   "CWE-125",
+   "CWE-125"
+  ]
+ }
+}
