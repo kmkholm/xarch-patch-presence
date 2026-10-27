@@ -95,6 +95,18 @@ Main components:
 
 All results are computed with CVE-grouped folds, so that no CVE of a test fold is seen during training.
 
+## Citation
+
+If you use this benchmark, the labels or the code, please cite the following paper:
+
+```bibtex
+
+```
+
+## Contact
+
+If you use this data, please contact me at **kmkhol01@gmail.com**.
+
 ## Licence
 
 Code: MIT licence (see `LICENSE`). Benchmark labels and derived features in `data/`: CC BY 4.0.
